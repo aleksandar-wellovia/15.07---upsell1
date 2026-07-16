@@ -1735,6 +1735,245 @@ body,
         margin-bottom:15px !important;
     }
 }
+/* photo1-hero-image */
+.warming-oil-source .photo1-hero{
+    background:transparent !important;
+    border:0 !important;
+    border-radius:0 !important;
+    padding:0 !important;
+    min-height:0 !important;
+    max-width:760px !important;
+    margin:0 auto 34px !important;
+}
+.warming-oil-source .photo1-hero img{
+    display:block !important;
+    width:100% !important;
+    max-width:760px !important;
+    height:auto !important;
+    margin:0 auto !important;
+    border-radius:10px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .photo1-hero{
+        margin-bottom:28px !important;
+    }
+    .warming-oil-source .photo1-hero img{
+        border-radius:8px !important;
+    }
+}
+/* photo1-match-text-width */
+.warming-oil-source .photo1-hero{
+    width:100% !important;
+    max-width:900px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.warming-oil-source .photo1-hero img{
+    width:100% !important;
+    max-width:900px !important;
+}
+/* content-photo-images */
+.warming-oil-source .content-photo{
+    background:transparent !important;
+    border:0 !important;
+    border-radius:0 !important;
+    padding:0 !important;
+    min-height:0 !important;
+    width:100% !important;
+    max-width:900px !important;
+    margin:14px auto 20px !important;
+}
+.warming-oil-source .content-photo img{
+    display:block !important;
+    width:100% !important;
+    max-width:900px !important;
+    height:auto !important;
+    margin:0 auto !important;
+    border-radius:10px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .content-photo img{
+        border-radius:8px !important;
+    }
+}
+/* content-video-media */
+.warming-oil-source .content-video{
+    background:transparent !important;
+    border:0 !important;
+    border-radius:0 !important;
+    padding:0 !important;
+    min-height:0 !important;
+    width:100% !important;
+    max-width:900px !important;
+    margin:14px auto 20px !important;
+}
+.warming-oil-source .content-video video{
+    display:block !important;
+    width:100% !important;
+    max-width:900px !important;
+    height:auto !important;
+    margin:0 auto !important;
+    border-radius:10px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .content-video video{
+        border-radius:8px !important;
+    }
+}
+/* guarantee-photo-size */
+.warming-oil-source .guarantee-photo{
+    max-width:420px !important;
+    margin:14px auto 22px !important;
+}
+.warming-oil-source .guarantee-photo img{
+    max-width:420px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .guarantee-photo,
+    .warming-oil-source .guarantee-photo img{
+        max-width:300px !important;
+    }
+}
+/* guarantee-photo-match-content */
+.warming-oil-source .guarantee-photo{
+    width:100% !important;
+    max-width:900px !important;
+    margin:14px auto 20px !important;
+}
+.warming-oil-source .guarantee-photo img{
+    width:100% !important;
+    max-width:900px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .guarantee-photo,
+    .warming-oil-source .guarantee-photo img{
+        max-width:900px !important;
+    }
+}
+/* footer-lighter-gray-final */
+.footer{
+    background:#f2f2f2 !important;
+}
+/* scarcity-product-visual */
+.warming-oil-source .scarcity-product-visual{
+    position:relative !important;
+    width:100% !important;
+    max-width:760px !important;
+    margin:8px auto 24px !important;
+    padding:0 !important;
+    background:transparent !important;
+    border:0 !important;
+    border-radius:0 !important;
+    min-height:0 !important;
+    overflow:visible !important;
+}
+.warming-oil-source .scarcity-product-visual img{
+    display:block !important;
+    width:100% !important;
+    max-width:560px !important;
+    height:auto !important;
+    margin:0 auto !important;
+    filter:drop-shadow(0 12px 18px rgba(5,47,85,.10)) !important;
+}
+.warming-oil-source .scarcity-price-badge{
+    position:absolute !important;
+    right:80px !important;
+    top:50% !important;
+    transform:translateY(-50%) !important;
+    width:126px !important;
+    height:126px !important;
+    border-radius:50% !important;
+    background:#df111b !important;
+    border:5px solid #fff !important;
+    box-shadow:0 12px 24px rgba(120,0,0,.24) !important;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;
+    justify-content:center !important;
+    box-sizing:border-box !important;
+    color:#fff !important;
+    font-family:Poppins, Arial, sans-serif !important;
+    text-align:center !important;
+    z-index:2 !important;
+}
+.warming-oil-source .scarcity-price-badge .old-price{
+    color:#fff !important;
+    font-size:16px !important;
+    line-height:1 !important;
+    font-weight:800 !important;
+    text-decoration:line-through !important;
+    opacity:.95 !important;
+    margin-bottom:5px !important;
+}
+.warming-oil-source .scarcity-price-badge .new-price{
+    color:#fff !important;
+    font-size:19px !important;
+    line-height:1 !important;
+    font-weight:900 !important;
+}
+.warming-oil-source .scarcity-price-badge .per-bottle{
+    color:#fff !important;
+    font-size:14px !important;
+    line-height:1.05 !important;
+    font-weight:800 !important;
+    font-style:italic !important;
+    margin-top:3px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .scarcity-product-visual{
+        max-width:100% !important;
+        margin:8px auto 20px !important;
+    }
+    .warming-oil-source .scarcity-product-visual img{
+        max-width:330px !important;
+    }
+    .warming-oil-source .scarcity-price-badge{
+        right:6px !important;
+        width:92px !important;
+        height:92px !important;
+        border-width:3px !important;
+    }
+    .warming-oil-source .scarcity-price-badge .old-price{
+        font-size:12px !important;
+        margin-bottom:3px !important;
+    }
+    .warming-oil-source .scarcity-price-badge .new-price{
+        font-size:14px !important;
+    }
+    .warming-oil-source .scarcity-price-badge .per-bottle{
+        font-size:11px !important;
+    }
+}
+/* scarcity-visual-size-tune */
+.warming-oil-source .scarcity-product-visual{
+    max-width:680px !important;
+}
+.warming-oil-source .scarcity-product-visual img{
+    max-width:500px !important;
+}
+.warming-oil-source .scarcity-price-badge{
+    right:70px !important;
+    width:112px !important;
+    height:112px !important;
+}
+.warming-oil-source .scarcity-price-badge .old-price{
+    font-size:14px !important;
+}
+.warming-oil-source .scarcity-price-badge .new-price{
+    font-size:17px !important;
+}
+.warming-oil-source .scarcity-price-badge .per-bottle{
+    font-size:13px !important;
+}
+@media only screen and (max-width: 767px){
+    .warming-oil-source .scarcity-product-visual img{
+        max-width:300px !important;
+    }
+    .warming-oil-source .scarcity-price-badge{
+        width:84px !important;
+        height:84px !important;
+    }
+}
 </style>
 
 </head>
@@ -1779,7 +2018,7 @@ body,
                 <hr class="headline-break">
                                                                 <div class="content-edit-anchor warming-oil-content warming-oil-source">
 <p class="bigidea">Don&rsquo;t Let Nights Slow Your Results Down</p>
-    <div class="photo">[PHOTO/GIF &mdash; HERO TRANSFORMATION: the Cooling Roller she JUST bought, visibly WINNING on her thighs &mdash; before &rarr; rolling &rarr; smooth, relieved result (happy woman 50+). Show the ROLLER only &mdash; the Oil stays hidden until section 6.]</div>
+    <div class="photo photo1-hero"><img src="photo1.png" alt="Nurovita transformation result"></div>
 
   <!-- === 1 &middot; CONGRATS / VALIDATE === -->
   <section>
@@ -1790,7 +2029,7 @@ body,
     <p class="line">Maybe you&rsquo;re wondering if a 30-second roll can really wake your collagen and smooth your skin&hellip;</p>
     <p class="line">But in a few weeks, when you run your hand down your thigh&hellip;</p>
     <p class="line b">You&rsquo;ll know.</p>
-    <div class="photo">[PHOTO: a real customer&rsquo;s OWN before/after &mdash; her hands on smooth skin; phone-shot, authentic, testimonial feel]</div>
+    <div class="photo content-photo photo2-testimonial"><img src="photo2.png" alt="Customer before and after smooth skin result"></div>
   </section>
 
   <!-- === 2 &middot; TRANSFORMATION PROMISE === -->
@@ -1822,7 +2061,7 @@ body,
   <!-- === 3 &middot; THE SECOND ENEMY === -->
   <section>
     <h2>Nights WILL <span class="red">Slow Down</span> Your Results</h2>
-    <div class="photo">[PHOTO: night &mdash; the Roller resting on the nightstand while she sleeps; the hours nobody&rsquo;s feeding]</div>
+    <div class="photo content-video photo3-night"><video src="photo3.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
     <p class="line">Just when your legs start looking better&hellip;</p>
     <p class="line">You&rsquo;ll feel it.</p>
     <p class="line">That first smooth change is there.</p>
@@ -1853,7 +2092,7 @@ body,
     <p class="line">Your biggest rebuilding hours&hellip; on your weakest supply.</p>
     <p class="line">So the collagen rebuild keeps going&hellip; just much slower than it should.</p>
     <p class="line b">Boost the circulation, and the same rebuild runs faster.</p>
-    <div class="photo">[PHOTO: blood-flow / gentle-warmth illustration feeding the skin layers &mdash; the fuel line made visible]</div>
+    <div class="photo content-video gif2-bloodflow"><video src="gif2.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
     <p class="line">That&rsquo;s why some women wait months for what could arrive in weeks.</p>
   </section>
 
@@ -1864,14 +2103,14 @@ body,
     <p class="line">We took two groups of Roller customers &mdash; and followed them for 60 days.</p>
     <p class="line">Group A rolled by day. Nights? Nothing.</p>
     <p class="line">Group B did one thing differently &mdash; they kept their legs warm through the night.</p>
-    <div class="photo">[PHOTO #1: THE TWO GROUPS &mdash; Group A (Roller, days only) vs Group B (Roller + warm nights), side by side]</div>
+    <div class="photo content-photo photo5-groups"><img src="photo5.png" alt="Group A versus Group B comparison"></div>
     <p class="line">When we checked in, Group A was winning &mdash; smoother, firmer skin, right on schedule, around week 3 to 4.</p>
     <p class="line">But Group B?</p>
     <div class="greenbox">
       <p class="gline b"><b>9 out of 10 saw their first visible change inside the first 7 days.</b></p>
       <p class="gline"><i>&ldquo;I&rsquo;ve only been using this product for a few days and I swear I&rsquo;m already seeing a difference&hellip;&rdquo;</i></p>
     </div>
-    <div class="photo">[PHOTO #2: A-vs-B GRAPH &mdash; Group B&rsquo;s curve rising inside week 1; Group A&rsquo;s on the week 3&ndash;4 schedule]</div>
+    <div class="photo content-photo photo6-graph"><img src="photo6.png" alt="Group A versus Group B results graph"></div>
     <p class="line">Same roller. Same 8% Centella.</p>
     <p class="line">The only difference? Their rebuild kept going overnight.</p>
     <p class="line">European clinics have known this for over 40 years. Their famous contrast protocols never run cold alone.</p>
@@ -1897,7 +2136,7 @@ body,
   <section>
     <h2>That&rsquo;s Why We Created The Fire</h2>
     <p class="line">The Nurovita Natural Warming Oil &mdash; the night step of the protocol.</p>
-    <div class="photo">[PHOTO: TWO-UP CONTRAST &mdash; LEFT: the Roller, big label &ldquo;THE ICE (DAY)&rdquo;. RIGHT: the Warming Oil, big label &ldquo;THE FIRE (NIGHT)&rdquo;. Two halves of one system, both labels visible.]</div>
+    <div class="photo content-photo photo7-contrast"><img src="photo7.png" alt="Cooling Roller and Warming Oil contrast"></div>
     <div class="greenbox">
       <p class="gline">&#10052;&#65039; <b>Your Cooling Roller = The Ice (Day)</b></p>
       <p class="gline">&#9989; Wakes your dormant collagen</p>
@@ -1927,7 +2166,7 @@ body,
     <p class="line">Esculin-free &mdash; zero interaction with blood thinners or blood-pressure meds. Same safety standard as your Roller.</p>
     <p class="line">Every night as you massage it in, you&rsquo;ll know you&rsquo;re not just pampering your skin&hellip;</p>
     <p class="line b">You&rsquo;re speeding up your rebuild.</p>
-    <div class="photo">[PHOTOS: 3 step images &mdash; drops on skin / night warmth / morning roller]</div>
+    <div class="photo content-video gif1-steps"><video src="gif1.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
   </section>
 
   <!-- === 8 &middot; IF YOU SKIP === -->
@@ -1999,7 +2238,7 @@ body,
   <!-- === 11 &middot; GUARANTEE === -->
   <section>
     <h2>Try It 100% Risk-Free For 90 Days</h2>
-    <div class="photo">[PHOTO: circular gold-foil 90-Day Money-Back Guarantee seal &mdash; &ldquo;Smooth Skin or Money Back&rdquo; ribbon banner, embossed checkmark]</div>
+    <div class="photo content-photo guarantee-photo"><img src="90days.png" alt="90-Day Money-Back Guarantee"></div>
     <p class="line b">We know this works.</p>
     <p class="line">We&rsquo;ve watched 9 out of 10 women spot their first change inside the first week.</p>
     <p class="line">But see it for yourself &mdash; risk-free. Here&rsquo;s our deal:</p>
@@ -2016,6 +2255,7 @@ body,
   <!-- === 12 &middot; SCARCITY === -->
   <section>
     <h2>This Offer Is ONLY Available Right Now</h2>
+    <div class="photo scarcity-product-visual"><img src="/productoil.png" alt="Nurovita Natural Warming Oil bottles"><div class="scarcity-price-badge"><span class="old-price">$49.90</span><span class="new-price">$29.90</span><span class="per-bottle">per bottle</span></div></div>
     <p class="line b">If you leave this page, this price disappears.</p>
     <p class="line">This deal exists for one reason: your Roller hasn&rsquo;t shipped yet &mdash; so your bottles ride along in the same box.</p>
     <p class="line">Later, it&rsquo;s full price &mdash; $49.90 a bottle. And you&rsquo;ll be weeks behind where you could have been.</p>
@@ -2026,7 +2266,7 @@ body,
   <!-- === 13 &middot; FINAL CTA === -->
   <section>
     <h2>It&rsquo;s Time to Decide</h2>
-    <div class="photo">[PHOTO: the Warming Oil 5-pack hero shot &mdash; yellow struck $49.90-per-bottle circle beside a red $29.90-each circle, warm optimistic lighting]</div>
+    <div class="photo content-photo decide-photo"><img src="decide.png" alt="Nurovita Warming Oil five-pack offer"></div>
     <p class="line">There&rsquo;s a button below.</p>
     <div class="greenbox">
       <p class="gline">&#9989; That button is your key to seeing your first results in days &mdash; not months.</p>
